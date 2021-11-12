@@ -9,5 +9,5 @@ In other terms, you take the most frequently used data, which is also least-modi
 Theoretically, this is how caching would work. Client 1 requests for some data and takes about 20 seconds to fetch. While fetching, we will also parallelly copy this fetched data to temporary storage. Now, when Client 2 requests for the same data, it would just take him less than 1-2 seconds before he gets a response.
 
 ## Types of Caching
-- In-Memory Caching - Where the cached data is stored within the application instance.
-- Distributed Caching - where the cached data is stoerd on an external infrastructure like a Redis Server.
+- **In-Memory Caching** - Where the cached data is stored within the application instance.
+- **Distributed Caching** - where the cached data is stoerd on an external infrastructure like a Redis Server.
